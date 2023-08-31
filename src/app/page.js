@@ -10,7 +10,7 @@ import Videos from './components/Videos';
 import { fetchFromAPI } from './utils/fetchFromAPI';
 
 
-const Page = () => {
+const HomePage = () => {
 
   const [selectedCategory, setSelectedCategory] = useState('new');
   const [videos, setVideos] = useState([])
@@ -50,4 +50,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default HomePage

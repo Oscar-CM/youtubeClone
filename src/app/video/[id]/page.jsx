@@ -35,8 +35,8 @@ const ViewVideo = () => {
                     {videoDetail?.snippet?.channelTitle}
                 </div>
                 <div className='mt-2'>
-                    <p>{videoDetail?.statistics?.viewCount} <span className='text-red-400'>Views</span></p>
-                    <p>{videoDetail?.statistics?.likeCount} <span className='text-red-400'>Likes</span></p>
+                    <p>{videoDetail?.statistics?.viewCount}</p> <span className='text-red-400'>Views</span>
+                    <p>{videoDetail?.statistics?.likeCount} </p><span className='text-red-400'>Likes</span>
 
                 </div>
             </div>

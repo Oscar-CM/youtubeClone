@@ -28,7 +28,7 @@ const Navbar = () => {
                 <Link href='/'>
                 <div className='flex items-center mx-10'>
                     <img src={logo} alt='logo' height={45} width={45} />
-                    <h2>Youtube Clone</h2>
+                    <h2 className=''>Youtube Clone</h2>
                 </div>
                 </Link>
                 

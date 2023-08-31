@@ -10,7 +10,7 @@ import Videos from '@/app/components/Videos';
 import { fetchFromAPI } from '@/app/utils/fetchFromAPI';
 
 
-const search = () => {
+const Search = () => {
 
   const [videos, setVideos] = useState([])
 
@@ -49,4 +49,4 @@ const search = () => {
   )
 }
 
-export default search
+export default Search

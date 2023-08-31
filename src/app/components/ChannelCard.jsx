@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+
 import { demoChannelUrl, demoProfilePicture } from '../utils/constants';
 
 const ChannelCard = ({  channelDetail }) => {

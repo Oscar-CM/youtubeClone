@@ -36,7 +36,7 @@ const Feeds = () => {
         <div className='row-start-1 col-span-10 h-screen text-white'>
           <div className='m-3 flex text-xl head-text'>
             <p>{selectedCategory}</p>
-            <span className='text-red-400 mx-2'> <h4> Videos  </h4></span>
+            <span className='text-red-400 mx-2'>  Videos </span>
  
             
           </div>

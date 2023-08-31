@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.gradient{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(3,20,48,1) 20%, rgba(9,121,110,0.989233193277311) 77%, rgba(0,212,255,1) 98%, rgba(0,212,255,1) 98%);
+}
+
+.shift{
+  margin-top: -73px;
+}

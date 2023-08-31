@@ -8,7 +8,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { fetchFromAPI } from '@/app/utils/fetchFromAPI';
 
-const viewVideo = () => {
+const ViewVideo = () => {
     const [videoDetail, setVideoDetail] = useState(null)
     const [videos, setVideos] = useState(null);
     const { id } = useParams();
@@ -49,4 +49,4 @@ const viewVideo = () => {
     );
 }
 
-export default viewVideo
+export default ViewVideo
